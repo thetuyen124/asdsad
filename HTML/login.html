@@ -11,7 +11,8 @@
     <BODY BGCOLOR = white> 
         <script language="javascript">
             function dangnhap(){
-                location.replace("/btl/html/home.html")
+                location.assign("/btl/html/home.html")
+                //confirm("Tài khoản mật khẩu không chính xác");
             }
         </script>
         <img style=" position: absolute; z-index: 2;top: 0px;right: 0px;" src="/BTL/image/top%20right.png" width ="25%" />
@@ -27,8 +28,6 @@
                 <input type="button" onclick="dangnhap()" value="Đăng nhập" >
                 <a style="left: 5px;" href = "/BTL/html/qenmk.html" target = "_self">[Quên mật khẩu]</a>
             </p>
-            </form>
-        
-        
+        </form>
     </BODY> 
 </HTML> 
